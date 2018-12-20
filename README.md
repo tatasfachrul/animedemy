@@ -31,9 +31,32 @@ npm install
 ```
 
 ## Backend
+### Install
 ```bash
 cd backend
 npm install
+```
+then make configuration in `env` file and change the following line
+```bash
+HOST=your_host_address
+PORT=your_host_port
+DB_CONNECTION=mysql
+DB_HOST=your_db_host
+DB_PORT=your_db_port
+DB_USER=your_db_user
+DB_PASSWORD=your_db_password
+DB_DATABASE=your_db
+```
+
+### Run
+#### Create App Key
+```bash
+adonis key:generate
+```
+
+#### Run Migration
+```bash
+adonis migration:run
 ```
 
 ## Scrapping
