@@ -6,7 +6,7 @@
 	url = http://github.com/tatasfachrul/animedemy-web.git
 [submodule "mobile"]
 	path = mobile
-	url = http://github.com/tatasfachrul/animedemy-mobile.git
+	url = http://github.com/tatasfachrul/animedemy-mobile
 [submodule "scrap"]
 	path = scrap
 	url = http://github.com/tatasfachrul/animedemy-scrap.git
