@@ -1,0 +1,12 @@
+[submodule "backend"]
+	path = backend
+	url = http://github.com/tatasfachrul/animedemy-backend.git
+[submodule "web"]
+	path = web
+	url = http://github.com/tatasfachrul/animedemy-web.git
+[submodule "mobile"]
+	path = mobile
+	url = http://github.com/tatasfachrul/animedemy-mobile.git
+[submodule "scrap"]
+	path = scrap
+	url = http://github.com/tatasfachrul/animedemy-scrap.git
